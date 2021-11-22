@@ -1,5 +1,6 @@
 import os
 import subprocess
+subprocess.run("File Manager")
 Path="/storage/emulated/0/qpython/"
 
 def change_Path(Path1):
@@ -68,7 +69,7 @@ elif ch=='3':
     extension=str(input("Enter Extension of file :: "))
     creat_file(file_name,extension)
 elif ch=='4':
-    subprocess("clear")
+    subprocess.run("clear")
     file_name=str(input("Enter The File Name :: "))
     extension=str(input("Enter Extension of file :: "))
     Delet_file(file_name,extension)
