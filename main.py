@@ -1,6 +1,5 @@
 import os
 import subprocess
-subprocess.run("toilet File Manager")
 Path="/storage/emulated/0/qpython/"
 
 def change_Path(Path1):
